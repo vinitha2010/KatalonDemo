@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\Vinitha\\Downloads\\app-release (1).apk', true)
+
+Mobile.tap(findTestObject('Object Repository/aulasTestcases/android.widget.TextView - UPDATE NOW'), 0)
+
+Mobile.tap(findTestObject('Object Repository/aulasTestcases/android.widget.TextView - RESTART AULAS'), 0)
+
+Mobile.closeApplication()
+
